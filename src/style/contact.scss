@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  padding: 1rem 4rem 0 4rem;
+}
+.insta {
+  text-decoration: none;
+  color: #2c3e50;
+}
+.contact-section {
+  padding: 40px 0;
+  background-size: cover;
+  background: #f8f8f8;
+}
+.contact-section h1 {
+  text-align: center;
+}
+.border {
+  width: 500px;
+  height: 1px;
+  background: #bdc3c7;
+  margin: 40px auto;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 0px;
+  overflow: hidden;
+}
+.contact-form-text {
+  display: block;
+  width: 100%;
+  border-width: thin;
+  outline-style: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 30px 0;
+  padding: 15px 40px;
+  color: black;
+  background: #537597;
+  font-family: "Raleway";
+  font-size: 20px;
+  transition: 0.1s;
+}
+.contact-form-text:hover {
+  box-shadow: 0 0 10px 5px #ecf0f1;
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-form-btn:hover {
+  background: #7f8c8d;
+}

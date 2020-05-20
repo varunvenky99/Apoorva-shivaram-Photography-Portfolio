@@ -1,0 +1,53 @@
+.header {
+  padding: 1rem 3rem 1rem;
+  border-bottom: 2px solid #eee;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  color: #000000 !important;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Lora";
+
+  margin: 0 0 18px 0;
+  color: #999999;
+  text-align: center;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  color: #888585;
+  font-size: 1.3rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+
+.nav-item:hover {
+  color: #464343;
+  transition: all 0.5s ease-out;
+}
+
+.nav-current-item {
+  color: #000000;
+}
+li {
+  margin-bottom: 1.5rem;
+}
+.navAbt {
+  margin-top: 3rem;
+}
+.navCnt {
+  margin-bottom: 3rem;
+  font-family: "Raleway";
+}
+.liTitle {
+  margin-top: 0.7rem;
+  margin-bottom: 2.7rem;
+}

@@ -1,42 +1,75 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
+import headerStyles from "./header.module.scss"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = () => {
+  return (
+    <header className={headerStyles.header}>
+      <nav>
+        <ul className={headerStyles.navList}>
+          <li className={headerStyles.liTitle}>
+            <Link className={headerStyles.title} to="/">
+              Apoorva Shivaram Photography
+            </Link>
+          </li>
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/chicago"
+            >
+              Chicago
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/San_diego"
+            >
+              San Diego
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/turkey"
+            >
+              Turkey
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/Saint_Paul"
+            >
+              Como Park,St.Paul
+            </Link>
+          </li>
+          <li className={headerStyles.navAbt}>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/about"
+            >
+              About
+            </Link>
+          </li>
+          <li className={headerStyles.navCnt}>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.navCurrentItem}
+              to="/contact"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  )
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header

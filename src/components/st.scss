@@ -1,0 +1,42 @@
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+.columns {
+  flex: 25%;
+}
+
+.imgs {
+  padding: 4px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.item4 {
+  width: 90%;
+}
+.item5 {
+  width: 90%;
+}
+.item6 {
+  width: 90%;
+}
+.item7 {
+  width: 90%;
+}
+@media screen and (max-width: 800px) {
+  .columns {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columns {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
