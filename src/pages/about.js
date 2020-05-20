@@ -10,7 +10,7 @@ const AboutPage = () => {
       profile: file(relativePath: { eq: "profile.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }

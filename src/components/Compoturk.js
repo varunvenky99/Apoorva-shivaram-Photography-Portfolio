@@ -205,7 +205,7 @@ const Compoturk = () => {
             <div class="row">
               <div class="column">
                 <div
-                  className="img12 img"
+                  className="img1 img"
                   data-sal-duration="1200"
                   data-sal="slide-up"
                   data-sal-delay="300"
@@ -307,7 +307,7 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf6.childImageSharp.fluid} />
+                  <Img fluid={data.leaf18.childImageSharp.fluid} />
                 </div>
                 <div
                   className="img12 img"
@@ -316,7 +316,7 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf18.childImageSharp.fluid} />
+                  <Img fluid={data.leaf6.childImageSharp.fluid} />
                 </div>
                 <div
                   className="img13 img"
@@ -397,7 +397,7 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf1.childImageSharp.fluid} />
+                  <Img fluid={data.leaf12.childImageSharp.fluid} />
                 </div>
               </div>
             </div>
