@@ -29,7 +29,7 @@ const Compost = () => {
       leaf1: file(relativePath: { eq: "stpaul/1.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -37,7 +37,7 @@ const Compost = () => {
       leaf2: file(relativePath: { eq: "stpaul/2.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -45,7 +45,7 @@ const Compost = () => {
       leaf3: file(relativePath: { eq: "stpaul/3.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -53,7 +53,7 @@ const Compost = () => {
       leaf4: file(relativePath: { eq: "stpaul/4.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -61,7 +61,7 @@ const Compost = () => {
       leaf5: file(relativePath: { eq: "stpaul/5.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -69,7 +69,7 @@ const Compost = () => {
       leaf6: file(relativePath: { eq: "stpaul/6.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -77,7 +77,7 @@ const Compost = () => {
       leaf7: file(relativePath: { eq: "stpaul/7.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }

@@ -40,7 +40,7 @@ const MyComponent = () => {
       leaf1: file(relativePath: { eq: "sandiego/1.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -48,7 +48,7 @@ const MyComponent = () => {
       leaf2: file(relativePath: { eq: "sandiego/2.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -56,7 +56,7 @@ const MyComponent = () => {
       leaf3: file(relativePath: { eq: "sandiego/3.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -64,7 +64,7 @@ const MyComponent = () => {
       leaf4: file(relativePath: { eq: "sandiego/4.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -72,7 +72,7 @@ const MyComponent = () => {
       leaf5: file(relativePath: { eq: "sandiego/5.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -80,7 +80,7 @@ const MyComponent = () => {
       leaf6: file(relativePath: { eq: "sandiego/6.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -88,7 +88,7 @@ const MyComponent = () => {
       leaf7: file(relativePath: { eq: "sandiego/7.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -96,7 +96,7 @@ const MyComponent = () => {
       leaf8: file(relativePath: { eq: "sandiego/8.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -104,7 +104,7 @@ const MyComponent = () => {
       leaf9: file(relativePath: { eq: "sandiego/9.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -112,7 +112,7 @@ const MyComponent = () => {
       leaf10: file(relativePath: { eq: "sandiego/10.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -120,7 +120,7 @@ const MyComponent = () => {
       leaf11: file(relativePath: { eq: "sandiego/11.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -128,7 +128,7 @@ const MyComponent = () => {
       leaf12: file(relativePath: { eq: "sandiego/12.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -136,7 +136,7 @@ const MyComponent = () => {
       leaf13: file(relativePath: { eq: "sandiego/13.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -144,7 +144,7 @@ const MyComponent = () => {
       leaf14: file(relativePath: { eq: "sandiego/14.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -152,7 +152,7 @@ const MyComponent = () => {
       leaf15: file(relativePath: { eq: "sandiego/15.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -160,7 +160,7 @@ const MyComponent = () => {
       leaf16: file(relativePath: { eq: "sandiego/16.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -168,7 +168,7 @@ const MyComponent = () => {
       leaf17: file(relativePath: { eq: "sandiego/17.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -176,7 +176,7 @@ const MyComponent = () => {
       leaf18: file(relativePath: { eq: "sandiego/18.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -184,7 +184,7 @@ const MyComponent = () => {
       leaf19: file(relativePath: { eq: "sandiego/19.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -192,7 +192,7 @@ const MyComponent = () => {
       leaf20: file(relativePath: { eq: "sandiego/20.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -200,7 +200,7 @@ const MyComponent = () => {
       leaf21: file(relativePath: { eq: "sandiego/21.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -208,7 +208,7 @@ const MyComponent = () => {
       leaf22: file(relativePath: { eq: "sandiego/22.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -216,7 +216,7 @@ const MyComponent = () => {
       leaf23: file(relativePath: { eq: "sandiego/23.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -224,7 +224,7 @@ const MyComponent = () => {
       leaf24: file(relativePath: { eq: "sandiego/24.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -232,7 +232,7 @@ const MyComponent = () => {
       leaf25: file(relativePath: { eq: "sandiego/25.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }

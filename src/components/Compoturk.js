@@ -29,7 +29,7 @@ const Compoturk = () => {
       leaf1: file(relativePath: { eq: "turkey/1.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -37,7 +37,7 @@ const Compoturk = () => {
       leaf2: file(relativePath: { eq: "turkey/2.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -45,7 +45,7 @@ const Compoturk = () => {
       leaf3: file(relativePath: { eq: "turkey/3.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -53,7 +53,7 @@ const Compoturk = () => {
       leaf4: file(relativePath: { eq: "turkey/4.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -61,7 +61,7 @@ const Compoturk = () => {
       leaf5: file(relativePath: { eq: "turkey/5.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
@@ -69,7 +69,7 @@ const Compoturk = () => {
       leaf6: file(relativePath: { eq: "turkey/6.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -77,7 +77,7 @@ const Compoturk = () => {
       leaf7: file(relativePath: { eq: "turkey/7.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -85,7 +85,7 @@ const Compoturk = () => {
       leaf8: file(relativePath: { eq: "turkey/8.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -93,7 +93,7 @@ const Compoturk = () => {
       leaf9: file(relativePath: { eq: "turkey/9.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -101,7 +101,7 @@ const Compoturk = () => {
       leaf10: file(relativePath: { eq: "turkey/10.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -109,7 +109,7 @@ const Compoturk = () => {
       leaf11: file(relativePath: { eq: "turkey/11.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -117,7 +117,7 @@ const Compoturk = () => {
       leaf12: file(relativePath: { eq: "turkey/12.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -125,7 +125,7 @@ const Compoturk = () => {
       leaf13: file(relativePath: { eq: "turkey/13.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -133,7 +133,7 @@ const Compoturk = () => {
       leaf14: file(relativePath: { eq: "turkey/14.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -141,7 +141,7 @@ const Compoturk = () => {
       leaf15: file(relativePath: { eq: "turkey/15.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -149,7 +149,7 @@ const Compoturk = () => {
       leaf16: file(relativePath: { eq: "turkey/16.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -157,7 +157,7 @@ const Compoturk = () => {
       leaf17: file(relativePath: { eq: "turkey/17.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -165,7 +165,7 @@ const Compoturk = () => {
       leaf18: file(relativePath: { eq: "turkey/18.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -173,7 +173,7 @@ const Compoturk = () => {
       leaf19: file(relativePath: { eq: "turkey/19.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -181,7 +181,7 @@ const Compoturk = () => {
       leaf20: file(relativePath: { eq: "turkey/20.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -189,7 +189,7 @@ const Compoturk = () => {
       leaf21: file(relativePath: { eq: "turkey/21.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -205,7 +205,7 @@ const Compoturk = () => {
             <div class="row">
               <div class="column">
                 <div
-                  className="img1 img"
+                  className="img12 img"
                   data-sal-duration="1200"
                   data-sal="slide-up"
                   data-sal-delay="300"
@@ -397,7 +397,7 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf12.childImageSharp.fluid} />
+                  <Img fluid={data.leaf1.childImageSharp.fluid} />
                 </div>
               </div>
             </div>

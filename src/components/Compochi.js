@@ -27,7 +27,7 @@ const Compochi = () => {
     query {
       leaf1: file(relativePath: { eq: "chicago/1.jpeg" }) {
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -36,7 +36,7 @@ const Compochi = () => {
       leaf2: file(relativePath: { eq: "chicago/2.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -52,7 +52,7 @@ const Compochi = () => {
       leaf4: file(relativePath: { eq: "chicago/4.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 90) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -60,7 +60,7 @@ const Compochi = () => {
       leaf5: file(relativePath: { eq: "chicago/5.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
@@ -68,7 +68,7 @@ const Compochi = () => {
       leaf6: file(relativePath: { eq: "chicago/6.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -76,7 +76,7 @@ const Compochi = () => {
       leaf7: file(relativePath: { eq: "chicago/7.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -84,7 +84,7 @@ const Compochi = () => {
       leaf8: file(relativePath: { eq: "chicago/8.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -92,7 +92,7 @@ const Compochi = () => {
       leaf9: file(relativePath: { eq: "chicago/9.png" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -100,7 +100,7 @@ const Compochi = () => {
       leaf10: file(relativePath: { eq: "chicago/10.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -108,7 +108,7 @@ const Compochi = () => {
       leaf11: file(relativePath: { eq: "chicago/11.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -116,7 +116,7 @@ const Compochi = () => {
       leaf12: file(relativePath: { eq: "chicago/12.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -124,7 +124,7 @@ const Compochi = () => {
       leaf13: file(relativePath: { eq: "chicago/13.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -132,7 +132,7 @@ const Compochi = () => {
       leaf14: file(relativePath: { eq: "chicago/14.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -140,7 +140,7 @@ const Compochi = () => {
       leaf15: file(relativePath: { eq: "chicago/15.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -148,7 +148,7 @@ const Compochi = () => {
       leaf16: file(relativePath: { eq: "chicago/16.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -156,7 +156,7 @@ const Compochi = () => {
       leaf17: file(relativePath: { eq: "chicago/17.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -164,7 +164,7 @@ const Compochi = () => {
       leaf18: file(relativePath: { eq: "chicago/18.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -172,7 +172,7 @@ const Compochi = () => {
       leaf19: file(relativePath: { eq: "chicago/19.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -180,7 +180,7 @@ const Compochi = () => {
       leaf20: file(relativePath: { eq: "chicago/20.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -188,7 +188,7 @@ const Compochi = () => {
       leaf21: file(relativePath: { eq: "chicago/21.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -196,7 +196,7 @@ const Compochi = () => {
       leaf22: file(relativePath: { eq: "chicago/22.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -204,7 +204,7 @@ const Compochi = () => {
       leaf23: file(relativePath: { eq: "chicago/23.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -212,7 +212,7 @@ const Compochi = () => {
       leaf24: file(relativePath: { eq: "chicago/24.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -220,7 +220,7 @@ const Compochi = () => {
       leaf25: file(relativePath: { eq: "chicago/25.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -228,7 +228,7 @@ const Compochi = () => {
       leaf26: file(relativePath: { eq: "chicago/26.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -236,7 +236,7 @@ const Compochi = () => {
       leaf27: file(relativePath: { eq: "chicago/27.jpeg" }) {
         id
         childImageSharp {
-          fluid(quality: 100) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
