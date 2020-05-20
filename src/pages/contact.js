@@ -8,12 +8,13 @@ const contactpg = () => {
         <h1 className="contact">Contact Me</h1>
         <div className="content">
           <p>
-            I can be reached via email at (apoorvashivaram205.com), Instagram{" "}
+            I can be reached via email at (apoorvashivaram205@gmail.com),
+            Instagram{" "}
             <a
               className="insta"
               href="https://www.instagram.com/apoorva_shivaram/?hl=en"
             >
-              (@apoorvashivaram)
+              (@apoorva_shivaram)
             </a>{" "}
             or through the form below.
           </p>
