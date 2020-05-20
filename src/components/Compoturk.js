@@ -4,6 +4,19 @@ import { SRLWrapper } from "simple-react-lightbox"
 import "../style/style.scss"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
+import posed from "react-pose"
+
+const Box = posed.div({
+  hoverable: true,
+  init: {
+    scale: 0.99,
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)",
+  },
+  hover: {
+    scale: 1.0,
+    boxShadow: "0px 10px 5px rgba(0,0,0,0.1)",
+  },
+})
 
 const options = {
   buttons: {
@@ -211,7 +224,9 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf1.childImageSharp.fluid} />
+                  <Box className="box">
+                    <Img fluid={data.leaf1.childImageSharp.fluid} />
+                  </Box>
                 </div>
 
                 <div
@@ -221,7 +236,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf13.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf13.childImageSharp.fluid} />
+                  </Box>
                 </div>
 
                 <div
@@ -231,7 +249,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf2.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf2.childImageSharp.fluid} />
+                  </Box>
                 </div>
 
                 <div
@@ -241,7 +262,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf14.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf14.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img5 img"
@@ -250,7 +274,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf3.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf3.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img6 img"
@@ -259,7 +286,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf15.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf15.childImageSharp.fluid} />
+                  </Box>
                 </div>
 
                 <div
@@ -269,7 +299,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf4.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf4.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img8 img"
@@ -278,7 +311,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf16.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf16.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img9 img"
@@ -287,7 +323,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf5.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf5.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img10 img"
@@ -296,7 +335,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf17.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf17.childImageSharp.fluid} />
+                  </Box>
                 </div>
               </div>
               <div class="column">
@@ -307,7 +349,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf18.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf18.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img12 img"
@@ -316,7 +361,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf6.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf6.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img13 img"
@@ -325,7 +373,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf7.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf7.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img14 img"
@@ -334,7 +385,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf19.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf19.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img15 img"
@@ -343,7 +397,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf8.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf8.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img16 img"
@@ -352,7 +409,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf20.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf20.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img17 img"
@@ -361,7 +421,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf9.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf9.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img18 img"
@@ -370,7 +433,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf21.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf21.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img19 img"
@@ -379,7 +445,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf10.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf10.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img20 img"
@@ -388,7 +457,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf11.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf11.childImageSharp.fluid} />
+                  </Box>
                 </div>
                 <div
                   className="img21 img"
@@ -397,7 +469,10 @@ const Compoturk = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf12.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf12.childImageSharp.fluid} />
+                  </Box>
                 </div>
               </div>
             </div>

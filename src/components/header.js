@@ -46,7 +46,7 @@ const Header = () => {
               activeClassName={headerStyles.navCurrentItem}
               to="/Saint_Paul"
             >
-              Como Park,St.Paul
+              Como Park, St. Paul
             </Link>
           </li>
           <li className={headerStyles.navAbt}>

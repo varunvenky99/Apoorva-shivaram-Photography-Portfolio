@@ -4,6 +4,19 @@ import { SRLWrapper } from "simple-react-lightbox"
 import "./st.scss"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
+import posed from "react-pose"
+
+const Box = posed.div({
+  hoverable: true,
+  init: {
+    scale: 0.99,
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)",
+  },
+  hover: {
+    scale: 1.0,
+    boxShadow: "0px 10px 5px rgba(0,0,0,0.1)",
+  },
+})
 
 const options = {
   buttons: {
@@ -99,7 +112,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf1.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf1.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
 
                 <div
@@ -109,7 +125,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf2.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf2.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
 
                 <div
@@ -119,7 +138,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf3.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf3.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
               </div>
               <div class="columns ">
@@ -130,7 +152,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf4.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf4.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
 
                 <div
@@ -140,7 +165,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf5.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf5.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
                 <div
                   className="item6 imgs"
@@ -149,7 +177,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf6.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf6.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
                 <div
                   className="item7 imgs"
@@ -158,7 +189,10 @@ const Compost = () => {
                   data-sal-delay="300"
                   data-sal-easing="ease-out-bounce"
                 >
-                  <Img fluid={data.leaf7.childImageSharp.fluid} />
+                  {" "}
+                  <Box className="box">
+                    <Img fluid={data.leaf7.childImageSharp.fluid} />{" "}
+                  </Box>
                 </div>
               </div>
             </div>

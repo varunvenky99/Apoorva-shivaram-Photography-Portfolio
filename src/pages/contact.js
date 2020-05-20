@@ -5,7 +5,7 @@ const contactpg = () => {
   return (
     <Layout>
       <div className="contact-section">
-        <h1>Contact Me</h1>
+        <h1 className="contact">Contact Me</h1>
         <div className="content">
           <p>
             I can be reached via email at (apoorvashivaram205.com), Instagram{" "}
