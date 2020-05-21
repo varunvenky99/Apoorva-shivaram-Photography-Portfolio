@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../style/contact.scss"
+import { Helmet } from "react-helmet"
 const contactpg = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact</title>
+        <link rel="canonical" href="http://apoorvashivaram.com/contact" />
+      </Helmet>
       <div className="contact-section">
         <h1 className="contact">Contact Me</h1>
         <div className="content">

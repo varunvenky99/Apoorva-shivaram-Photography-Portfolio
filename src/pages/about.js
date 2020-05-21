@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import "../style/abt.scss"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { Helmet } from "react-helmet"
 
 const AboutPage = () => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,11 @@ const AboutPage = () => {
   `)
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About</title>
+        <link rel="canonical" href="http://apoorvashivaram.com/contact" />
+      </Helmet>
       <div class="ro">
         <div
           class="co left"
