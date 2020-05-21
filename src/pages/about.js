@@ -35,13 +35,7 @@ const AboutPage = () => {
         >
           <Img fluid={data.profile.childImageSharp.fluid} className="avatar" />
         </div>
-        <div
-          className="co right"
-          data-sal-duration="1200"
-          data-sal="slide-right"
-          data-sal-delay="300"
-          data-sal-easing="ease-out-bounce"
-        >
+        <div className="co right">
           <p>Hi, I’m Apoorva.</p>
           <p>
             I’m a Chicago based photographer who is originally from the other
