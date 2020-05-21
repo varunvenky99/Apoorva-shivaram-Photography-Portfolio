@@ -23,11 +23,11 @@ const AboutPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>About</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/contact" />
+        <link rel="canonical" href="https://apoorvashivaram.com/contact" />
       </Helmet>
-      <div class="ro">
+      <div className="ro">
         <div
-          class="co left"
+          className="co left"
           data-sal-duration="1200"
           data-sal="slide-left"
           data-sal-delay="300"
@@ -36,14 +36,14 @@ const AboutPage = () => {
           <Img fluid={data.profile.childImageSharp.fluid} className="avatar" />
         </div>
         <div
-          class="co right"
+          className="co right"
           data-sal-duration="1200"
           data-sal="slide-right"
           data-sal-delay="300"
           data-sal-easing="ease-out-bounce"
         >
+          <p>Hi, I’m Apoorva.</p>
           <p>
-            <p>Hi, I’m Apoorva.</p>
             I’m a Chicago based photographer who is originally from the other
             side of the world from Bangalore, India. I originally got into
             photography when my (cousin) brother handed me his camera and told

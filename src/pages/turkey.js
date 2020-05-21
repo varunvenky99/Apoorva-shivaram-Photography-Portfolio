@@ -10,7 +10,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Turkey</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/San_diego" />
+        <link rel="canonical" href="https://apoorvashivaram.com/San_diego" />
       </Helmet>
       <SimpleReactLightbox>
         <Compoturk />

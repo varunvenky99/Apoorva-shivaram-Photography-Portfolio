@@ -8,7 +8,7 @@ const contactpg = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/contact" />
+        <link rel="canonical" href="https://apoorvashivaram.com/contact" />
       </Helmet>
       <div className="contact-section">
         <h1 className="contact">Contact Me</h1>

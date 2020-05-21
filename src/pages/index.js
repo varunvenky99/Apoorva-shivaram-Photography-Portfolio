@@ -8,7 +8,7 @@ function IndexPage() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Apoorva Shivaram</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/contact" />
+        <link rel="canonical" href="https://apoorvashivaram.com/contact" />
       </Helmet>
       <SimpleReactLightbox>
         <Compochi />

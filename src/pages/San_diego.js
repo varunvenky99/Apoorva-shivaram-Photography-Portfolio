@@ -8,7 +8,7 @@ function Apps() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>San Diego</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/San_diego" />
+        <link rel="canonical" href="https://apoorvashivaram.com/San_diego" />
       </Helmet>
       <SimpleReactLightbox>
         <MyComponent />

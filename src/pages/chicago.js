@@ -8,7 +8,7 @@ function Apps() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Chicago</title>
-        <link rel="canonical" href="http://apoorvashivaram.com/chicago" />
+        <link rel="canonical" href="https://apoorvashivaram.com/chicago" />
       </Helmet>
       <SimpleReactLightbox>
         <Compochi />
